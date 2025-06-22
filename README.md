@@ -1,21 +1,20 @@
 # 🤖 Gemini ChatBot App
-A modern and interactive ChatBot application built using Jetpack Compose and Google's Gemini AI. This app showcases real-time chat functionality with AI-powered responses, featuring a beautiful Material Design 3 interface and efficient message handling using the latest Android architecture components.
+A minimal yet powerful AI Chat Bot app built using Kotlin, Jetpack Compose, and MVVM architecture. This application allows users to interact with Google's Gemini API to get instant, intelligent responses. It features a clean, single-screen chat interface, making it easy to ask questions and get answers in real-time.
 
 # ✨ Features
-- 💬 **Real-time Chat** – Seamless conversation experience with Gemini AI
-- 🤖 **AI Integration** – Powered by Google's advanced Gemini model
+- 💬 **AI-Powered Conversations** – Ask questions and get intelligent responses using Gemini API.
+- 💬 **Real-time Chat** – Smooth and quick interaction between user and bot.
+- 🧠 **AI Integration** – Powered by Google's advanced Gemini model
 - 🎨 **Modern UI** – Built with Jetpack Compose and Material 3
 - 📱 **Responsive Design** – Adapts perfectly to different screen sizes
-- 🌈 **Dynamic Theming** – Supports Material You dynamic colors
 - 🔄 **State Management** – Efficient handling using ViewModel
 - 🎯 **Clean Architecture** – Following MVVM design pattern
-- 💾 **Message History** – Local storage of chat conversations
 - 🌐 **API Integration** – Secure handling of Gemini API calls
+- 🚫 **No Ads, No Clutter** – Focused and minimal experience with no distractions.
 
 # 📸 Screenshots
-![chat interface](path_to_screenshot1)
-![dark theme](path_to_screenshot2)
-![settings screen](path_to_screenshot3)
+![home](https://github.com/user-attachments/assets/92105cbd-33a4-42d7-b902-da949eadc9d9)
+![home 2](https://github.com/user-attachments/assets/ee1fe992-06ca-41f0-a3cf-28c4b8847a78)
 
 # ⚙️ Tech Stack
 - **UI Framework**: Jetpack Compose
@@ -23,22 +22,18 @@ A modern and interactive ChatBot application built using Jetpack Compose and Goo
 - **AI Model**: Google Gemini
 - **Architecture**: MVVM
 - **State Management**: StateFlow
-- **Dependency Injection**: Hilt
 - **Async Operations**: Coroutines
-- **HTTP Client**: Retrofit
-- **Local Storage**: Room Database
 
 # 📂 Project Structure
 - **app/src/main/**
-  - **java/np/com/bimalkafle/easybot/**
     - **ChatPage.kt**: Main chat interface implementation
     - **ChatViewModel.kt**: ViewModel for chat functionality
     - **Constants.kt**: App-wide constant values
     - **MainActivity.kt**: Main activity of the application
     - **MessageModel.kt**: Data model for chat messages
     - **ui/**: UI components and theme
-  - **res/**: Resources (layouts, values, drawables)
-  - **AndroidManifest.xml**: App manifest file
+- **res/**: Resources (layouts, values, drawables)
+- **AndroidManifest.xml**: App manifest file
 
 # 🚀 Getting Started
 Follow these steps to run the project locally:
@@ -67,6 +62,3 @@ Contributions are welcome! If you'd like to fix a bug or add a feature:
 3. Commit your changes
 4. Push to the branch
 5. Open a Pull Request
-
-# 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
